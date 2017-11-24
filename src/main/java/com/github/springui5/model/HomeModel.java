@@ -30,6 +30,10 @@ public class HomeModel implements Serializable {
     public List<Fruit> getListOfFruit() {
         return listOfFruit;
     }
+    
+    public Double getAverageQuantity() {
+    	return 1d;
+    }
 
     public void setListOfFruit(List<Fruit> listOfFruit) {
         this.listOfFruit = listOfFruit;

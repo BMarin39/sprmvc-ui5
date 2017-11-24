@@ -120,14 +120,27 @@ sap.ui.jsview("springui5.home", {
         });
 
         aControls.push(oTable);
+        
+        oLabel = new sap.ui.commons.Label("l1");
+		oLabel.setText("Average Quantity:\u00a0");
+		oLabel.setDesign(sap.ui.commons.LabelDesign.Bold);
+        aControls.push(oLabel);
+        
+        // average quantity, binding path is the same as the corresponding variable name in HomeModel
+        var oAvg = new sap.ui.commons.TextView({
+            text: "{/averageQuantity}",
+            design: sap.ui.commons.TextViewDesign.Bold
+        });
 
+        aControls.push(oAvg);
+        
         // error message, binding path is the same as the corresponding variable name in HomeModel
         var oText = new sap.ui.commons.TextView({
             text: "{/error}",
             design: sap.ui.commons.TextViewDesign.Bold,
             semanticColor: sap.ui.commons.TextViewColor.Negative
         });
-
+        
         aControls.push(oText);
 
         // handle parsing errors
