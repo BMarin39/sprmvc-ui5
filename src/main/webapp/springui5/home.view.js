@@ -121,6 +121,7 @@ sap.ui.jsview("springui5.home", {
 
         aControls.push(oTable);
         
+        // label for average quantity
         oLabel = new sap.ui.commons.Label("l1");
 		oLabel.setText("Average Quantity:\u00a0");
 		oLabel.setDesign(sap.ui.commons.LabelDesign.Bold);
