@@ -26,6 +26,4 @@ Here are some useful links (some of the code is based on the content found there
 * [Spring MVC](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html)
 * [OpenUI5 Demo Kit](https://openui5.hana.ondemand.com/#content/Overview.html)
 * [Generating JSON Error Object Responses With Spring Web MVC](http://springinpractice.com/2013/10/09/generating-json-error-object-responses-with-spring-web-mvc)
-
-
-
+* [Renjin, a JVM-based interpreter for the R language](http://www.renjin.org/)
