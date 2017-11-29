@@ -3,7 +3,7 @@ sprmvc-ui5
 
 The purpose of this demo application is to showcase the one possible set up for using [OpenUI5](http://sap.github.io/openui5/),
 formerly known as SAPUI5, with [Spring MVC](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html)
-framework and [Renjin](http://www.renjin.org/), a JVM-based interpreter for the R language.
+framework and [Renjin](http://www.renjin.org/), a JVM-based interpreter for the [R language](https://www.r-project.org/).
 
 It's a standard [Maven](http://maven.apache.org/) application which could be tested with embedded Tomcat server using
 the following command.
